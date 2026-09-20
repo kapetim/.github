@@ -42,9 +42,15 @@ if (( count > 10 )); then
   exit 1
 fi
 
-# repo_date <repo>
+# repo_date <repo> — YYYY-MM-DD of the last commit, or — when unavailable
 repo_date() {
-  gh api "repos/${OWNER}/$1/commits" --jq '.[0].commit.committer.date[0:10]' 2>/dev/null || echo "—"
+  local out=""
+  out="$(gh api "repos/${OWNER}/$1/commits" --jq '.[0].commit.committer.date[0:10]' 2>/dev/null)" || true
+  if [[ "$out" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+    echo "$out"
+  else
+    echo "—"
+  fi
 }
 
 # repo_ci <repo> — 🟢 when HEAD has a success and no failure, else —

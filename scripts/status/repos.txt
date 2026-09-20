@@ -1,12 +1,13 @@
-# Repo order map — one source per domain, max 10 slots (0-9).
+# Repo order map — one source per domain.
+# `-1` is the private vault (out of band); `0-7` are the regular slots.
 # Format: index|repo|label   (label optional; empty repo = reserved slot)
-0|private
-1|skibiribab|profile
+# Exceeding the set is an error: append to an existing repo instead.
+-1|private|private
+0|skibiribab|profile
+1|pkg-manager
 2|interviewing
 3|browser-extensions
 4|.github
-5|
+5|browser-games
 6|wiki
 7|data-science
-8|browser-games
-9|pkg-manager

@@ -12,5 +12,5 @@ runs:
       env:
         STATUS_TOKEN: ${{ inputs.token }}
         STATUS_OWNER: ${{ github.repository_owner }}
-        STATUS_TARGET_REPO: skibiribab/skibiribab
+        STATUS_TARGET_REPO: kapetim/kapetim
       run: bash "${{ github.action_path }}/../../../scripts/status/update-status.sh"

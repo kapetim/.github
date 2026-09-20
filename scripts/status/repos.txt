@@ -3,7 +3,7 @@
 # Format: index|repo|label   (label optional; empty repo = reserved slot)
 # Exceeding the set is an error: append to an existing repo instead.
 -1|private|private
-0|skibiribab|profile
+0|kapetim|profile
 1|pkg-manager
 2|interviewing
 3|browser-extensions

@@ -17,4 +17,4 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - uses: skibiribab/.github/.github/actions/ensure-epics@main
+      - uses: kapetim/.github/.github/actions/ensure-epics@main

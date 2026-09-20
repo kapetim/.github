@@ -1,6 +1,6 @@
 # .github
 
-Default community health files and shared automations for the **skibiribab** account — the honeypot that every repo inherits from.
+Default community health files and shared automations for the **kapetim** account — the honeypot that every repo inherits from.
 
 ## Inherited by every repo
 

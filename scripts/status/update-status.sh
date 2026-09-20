@@ -5,12 +5,12 @@
 # stable and empty slots (0-9) render as `—`. More than 10 repos is an error:
 # append to an existing repo instead of adding an 11th.
 #
-# usage: [STATUS_OWNER=skibiribab] [STATUS_TARGET_REPO=skibiribab/skibiribab] \
+# usage: [STATUS_OWNER=kapetim] [STATUS_TARGET_REPO=kapetim/kapetim] \
 #          [STATUS_TOKEN=...] bash scripts/status/update-status.sh
 set -euo pipefail
 
-OWNER="${STATUS_OWNER:-skibiribab}"
-TARGET_REPO="${STATUS_TARGET_REPO:-${OWNER}/skibiribab}"
+OWNER="${STATUS_OWNER:-kapetim}"
+TARGET_REPO="${STATUS_TARGET_REPO:-${OWNER}/kapetim}"
 TOKEN="${STATUS_TOKEN:-${GH_TOKEN:-}}"
 PR_BRANCH="${STATUS_PR_BRANCH:-chore/repo-status}"
 PR_TITLE="${STATUS_PR_TITLE:-chore: refresh repo status}"

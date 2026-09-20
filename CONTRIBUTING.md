@@ -1,6 +1,6 @@
 # Contributing
 
-This repo (`skibiribab/.github`) is the **account honeypot**: the default community health files and the shared automations for every repo in the account.
+This repo (`kapetim/.github`) is the **account honeypot**: the default community health files and the shared automations for every repo in the account.
 
 ## Model — one source per repo
 

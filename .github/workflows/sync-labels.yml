@@ -16,4 +16,4 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - uses: skibiribab/.github/.github/actions/sync-labels@main
+      - uses: kapetim/.github/.github/actions/sync-labels@main

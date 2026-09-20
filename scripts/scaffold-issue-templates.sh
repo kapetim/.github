@@ -118,7 +118,7 @@ permissions:
 
 jobs:
   run:
-    uses: skibiribab/.github/.github/workflows/${reusable}@main
+    uses: kapetim/.github/.github/workflows/${reusable}@main
 EOF
   echo "wrote workflow ${name}.yml"
 }

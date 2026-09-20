@@ -1,0 +1,12 @@
+# Repo order map — one source per domain, max 10 slots (0-9).
+# Format: index|repo|label   (label optional; empty repo = reserved slot)
+0|private
+1|skibiribab|profile
+2|interviewing
+3|browser-extensions
+4|.github
+5|
+6|wiki
+7|data-science
+8|browser-games
+9|pkg-manager

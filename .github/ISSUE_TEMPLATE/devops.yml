@@ -1,5 +1,5 @@
 name: "DevOps (default)"
-description: "Default issue — raw repo plumbing: linting, CI workflows, Dockerfile, basic usage."
+description: "Default issue — repo plumbing: linting, CI workflows, Dockerfile, deploy, basic usage."
 title: "🐳 DevOps"
 labels: ["epic", "default"]
 body:

@@ -1,0 +1,21 @@
+name: Update repo status
+
+# Manual only. Refreshes the repo-status table in the profile README and opens
+# a PR there. Needs a STATUS_TOKEN PAT — GITHUB_TOKEN cannot write another repo.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update status table
+        uses: ./.github/actions/status
+        with:
+          token: ${{ secrets.STATUS_TOKEN }}

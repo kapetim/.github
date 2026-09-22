@@ -24,6 +24,12 @@ Examples of unacceptable behavior:
 - Publishing others' private information, such as a physical or email address, without their explicit permission
 - Other conduct which could reasonably be considered inappropriate in a professional setting
 
+### Comparison and prejudice
+
+- **Compare traits, not people.** A label is a **hypothesis to prove**, never a posted fact.
+- Avoid direct comparisons a community rejects — for example, people compared to animals — even when the logic seems to hold; pick an accepted analogue.
+- Slurs and hateful labels are forbidden, and are enforced by the repositories' content validator.
+
 ## Enforcement Responsibilities
 
 Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
